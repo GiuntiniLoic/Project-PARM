@@ -452,19 +452,19 @@ end TCL_Generic;
       <a name="select" val="4"/>
       <a name="width" val="3"/>
     </comp>
-    <comp lib="8" loc="(161,825)" name="Text">
+    <comp lib="8" loc="(160,825)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Note 2: RSB instruction has Rn as 1st operand."/>
     </comp>
-    <comp lib="8" loc="(261,845)" name="Text">
+    <comp lib="8" loc="(260,845)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="MUL instruction has Rn as 1st operand and Rdm as 2nd operand"/>
     </comp>
-    <comp lib="8" loc="(316,865)" name="Text">
+    <comp lib="8" loc="(315,865)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="For simplification purposes, Rm is used for 1st operand both here and in the ALU."/>
     </comp>
-    <comp lib="8" loc="(481,810)" name="Text">
+    <comp lib="8" loc="(480,810)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Note: instructions that does not save the result will still have the second operand as the destination register, the ALU will copy the second register to the destination register"/>
     </comp>
