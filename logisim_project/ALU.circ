@@ -112,6 +112,10 @@
       <circ-port dir="out" pin="1130,620" x="120" y="220"/>
       <circ-port dir="out" pin="1430,750" x="150" y="200"/>
     </appear>
+    <comp lib="0" loc="(100,510)" name="Constant">
+      <a name="value" val="0xffffffff"/>
+      <a name="width" val="32"/>
+    </comp>
     <comp lib="0" loc="(1020,1600)" name="Constant">
       <a name="width" val="5"/>
     </comp>
@@ -898,6 +902,7 @@
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Note: for ROR, C = N"/>
     </comp>
+    <wire from="(100,510)" to="(310,510)"/>
     <wire from="(1020,1600)" to="(1060,1600)"/>
     <wire from="(1030,1580)" to="(1060,1580)"/>
     <wire from="(1040,110)" to="(1090,110)"/>
