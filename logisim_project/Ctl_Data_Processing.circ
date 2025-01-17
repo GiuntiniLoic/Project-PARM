@@ -302,6 +302,10 @@ end TCL_Generic;
       <a name="facing" val="south"/>
       <a name="label" val="Enable"/>
     </comp>
+    <comp lib="0" loc="(600,60)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="E"/>
+    </comp>
     <comp lib="0" loc="(720,120)" name="Bit Extender">
       <a name="in_width" val="1"/>
       <a name="out_width" val="3"/>
@@ -318,16 +322,16 @@ end TCL_Generic;
       <a name="label" val="E4"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="0" loc="(780,370)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="V"/>
-    </comp>
-    <comp lib="0" loc="(800,330)" name="Constant"/>
-    <comp lib="0" loc="(800,350)" name="Constant"/>
-    <comp lib="0" loc="(800,390)" name="Tunnel">
+    <comp lib="0" loc="(780,350)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C"/>
     </comp>
+    <comp lib="0" loc="(800,330)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="V"/>
+    </comp>
+    <comp lib="0" loc="(800,370)" name="Constant"/>
+    <comp lib="0" loc="(800,390)" name="Constant"/>
     <comp lib="0" loc="(830,320)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="4"/>
@@ -604,9 +608,9 @@ end TCL_Generic;
     <wire from="(650,60)" to="(680,60)"/>
     <wire from="(720,120)" to="(750,120)"/>
     <wire from="(720,60)" to="(750,60)"/>
-    <wire from="(780,370)" to="(810,370)"/>
+    <wire from="(780,350)" to="(810,350)"/>
     <wire from="(800,330)" to="(810,330)"/>
-    <wire from="(800,350)" to="(810,350)"/>
+    <wire from="(800,370)" to="(810,370)"/>
     <wire from="(800,390)" to="(810,390)"/>
     <wire from="(830,320)" to="(900,320)"/>
     <wire from="(840,100)" to="(920,100)"/>
