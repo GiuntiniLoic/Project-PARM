@@ -378,7 +378,7 @@ end TCL_Generic;
     </comp>
     <comp lib="0" loc="(910,240)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="RMD"/>
+      <a name="label" val="Rt"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(920,100)" name="Tunnel">
@@ -448,7 +448,7 @@ end TCL_Generic;
     <comp lib="4" loc="(590,220)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
     </comp>
-    <comp lib="8" loc="(1112,159)" name="Text">
+    <comp lib="8" loc="(1110,155)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Delay load and hold PC for 1 cycle for the RAM to send out requested data "/>
     </comp>

@@ -176,7 +176,7 @@
     </comp>
     <comp lib="0" loc="(1050,150)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="R3"/>
+      <a name="label" val="SM4"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(1050,290)" name="Pin">
@@ -188,7 +188,7 @@
     </comp>
     <comp lib="0" loc="(1050,300)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="R7"/>
+      <a name="label" val="SM8"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(1050,470)" name="Tunnel">
@@ -460,7 +460,7 @@
     </comp>
     <comp lib="0" loc="(780,150)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="R0"/>
+      <a name="label" val="SM1"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(780,290)" name="Pin">
@@ -472,7 +472,7 @@
     </comp>
     <comp lib="0" loc="(780,300)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="R4"/>
+      <a name="label" val="SM5"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(790,370)" name="Tunnel">
@@ -524,7 +524,7 @@
     </comp>
     <comp lib="0" loc="(870,150)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="R1"/>
+      <a name="label" val="SM2"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(870,290)" name="Pin">
@@ -536,7 +536,7 @@
     </comp>
     <comp lib="0" loc="(870,300)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="R5"/>
+      <a name="label" val="SM6"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(870,390)" name="Tunnel">
@@ -599,7 +599,7 @@
     </comp>
     <comp lib="0" loc="(960,150)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="R2"/>
+      <a name="label" val="SM3"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(960,290)" name="Pin">
@@ -611,7 +611,7 @@
     </comp>
     <comp lib="0" loc="(960,300)" name="Tunnel">
       <a name="facing" val="north"/>
-      <a name="label" val="R6"/>
+      <a name="label" val="SM7"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(960,720)" name="Tunnel">

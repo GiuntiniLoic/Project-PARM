@@ -122,12 +122,12 @@ end TCL_Generic;
     </tool>
   </lib>
   <lib desc="#BFH-Praktika" name="9"/>
-  <lib desc="file#Ctl_Data_Processing.circ" name="10"/>
-  <lib desc="file#Ctl_Conditional.circ" name="11"/>
-  <lib desc="file#Ctl_Shift_Add_Sub_Mov.circ" name="12"/>
-  <lib desc="file#Ctl_Load_Store.circ" name="13"/>
-  <lib desc="file#Ctl_SP_Address.circ" name="14"/>
-  <lib desc="file#Ctl_Opcode_Decoder.circ" name="15"/>
+  <lib desc="file#Ctl_Opcode_Decoder.circ" name="10"/>
+  <lib desc="file#Ctl_SP_Address.circ" name="11"/>
+  <lib desc="file#Ctl_Load_Store.circ" name="12"/>
+  <lib desc="file#Ctl_Conditional.circ" name="13"/>
+  <lib desc="file#Ctl_Shift_Add_Sub_Mov.circ" name="14"/>
+  <lib desc="file#Ctl_Data_Processing.circ" name="15"/>
   <lib desc="file#Ctl_Flags_APSR.circ" name="16"/>
   <main name="Controller"/>
   <options>
@@ -422,16 +422,16 @@ end TCL_Generic;
       <a name="size" val="30"/>
       <a name="width" val="3"/>
     </comp>
-    <comp lib="1" loc="(700,530)" name="OR Gate">
+    <comp lib="1" loc="(700,550)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="10" loc="(920,390)" name="Data_Processing"/>
-    <comp lib="11" loc="(900,1090)" name="Conditional"/>
-    <comp lib="12" loc="(920,210)" name="Shift_Add_Sub_Mov"/>
-    <comp lib="13" loc="(920,690)" name="Load_Store"/>
-    <comp lib="14" loc="(990,880)" name="SP_Address"/>
-    <comp lib="15" loc="(520,240)" name="Opcode_Decoder"/>
+    <comp lib="10" loc="(520,240)" name="Opcode_Decoder"/>
+    <comp lib="11" loc="(990,880)" name="SP_Address"/>
+    <comp lib="12" loc="(920,690)" name="Load_Store"/>
+    <comp lib="13" loc="(900,1090)" name="Conditional"/>
+    <comp lib="14" loc="(920,210)" name="Shift_Add_Sub_Mov"/>
+    <comp lib="15" loc="(920,390)" name="Data_Processing"/>
     <comp lib="16" loc="(920,530)" name="Flags_APSR"/>
     <comp lib="2" loc="(1270,70)" name="Multiplexer"/>
     <comp lib="3" loc="(1000,1080)" name="Adder">
@@ -476,7 +476,7 @@ end TCL_Generic;
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Add 3 to offset because ARM pre-increments PC"/>
     </comp>
-    <wire from="(100,530)" to="(110,530)"/>
+    <wire from="(100,530)" to="(710,530)"/>
     <wire from="(100,570)" to="(260,570)"/>
     <wire from="(100,610)" to="(110,610)"/>
     <wire from="(1000,1080)" to="(1010,1080)"/>
@@ -498,8 +498,6 @@ end TCL_Generic;
     <wire from="(1070,1140)" to="(1080,1140)"/>
     <wire from="(1080,1140)" to="(1080,1340)"/>
     <wire from="(1080,1340)" to="(1120,1340)"/>
-    <wire from="(110,530)" to="(110,550)"/>
-    <wire from="(110,550)" to="(710,550)"/>
     <wire from="(110,590)" to="(110,610)"/>
     <wire from="(110,590)" to="(280,590)"/>
     <wire from="(1100,1150)" to="(1100,1300)"/>
@@ -625,13 +623,13 @@ end TCL_Generic;
     <wire from="(610,690)" to="(700,690)"/>
     <wire from="(610,880)" to="(610,1110)"/>
     <wire from="(610,880)" to="(700,880)"/>
-    <wire from="(630,350)" to="(630,540)"/>
+    <wire from="(630,350)" to="(630,560)"/>
     <wire from="(630,350)" to="(940,350)"/>
-    <wire from="(630,540)" to="(670,540)"/>
-    <wire from="(650,510)" to="(650,520)"/>
-    <wire from="(650,510)" to="(940,510)"/>
-    <wire from="(650,520)" to="(670,520)"/>
-    <wire from="(700,530)" to="(710,530)"/>
+    <wire from="(630,560)" to="(670,560)"/>
+    <wire from="(660,510)" to="(660,540)"/>
+    <wire from="(660,510)" to="(940,510)"/>
+    <wire from="(660,540)" to="(670,540)"/>
+    <wire from="(700,550)" to="(710,550)"/>
     <wire from="(900,1060)" to="(900,1070)"/>
     <wire from="(900,1070)" to="(960,1070)"/>
     <wire from="(900,1090)" to="(910,1090)"/>
