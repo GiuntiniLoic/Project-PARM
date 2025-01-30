@@ -461,7 +461,7 @@ end TCL_Generic;
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(470,850)" name="Constant">
-      <a name="value" val="0x4"/>
+      <a name="value" val="0x3"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(480,650)" name="Tunnel">
@@ -1004,10 +1004,10 @@ end TCL_Generic;
     <wire from="(50,480)" to="(130,480)"/>
     <wire from="(500,670)" to="(510,670)"/>
     <wire from="(510,480)" to="(510,490)"/>
-    <wire from="(520,840)" to="(540,840)"/>
+    <wire from="(520,830)" to="(540,830)"/>
     <wire from="(530,460)" to="(550,460)"/>
     <wire from="(530,570)" to="(540,570)"/>
-    <wire from="(540,760)" to="(540,840)"/>
+    <wire from="(540,760)" to="(540,830)"/>
     <wire from="(550,650)" to="(560,650)"/>
     <wire from="(560,590)" to="(560,650)"/>
     <wire from="(560,740)" to="(610,740)"/>
